@@ -1,0 +1,47 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw
+}
+
+.header{
+    width: 100vw;
+    height: 12vh;
+    background-image: linear-gradient(rgb(230, 245, 252), lightblue);
+}
+
+.wrapper{
+    width: 70vw;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper2{
+    display: flex;
+}
+
+.wrapper2 img{
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 70%;
+}
+
+.introWrapper{
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.intro{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.introWrapper div{
+    font-size: 1.1rem;
+    white-space: normal;
+    line-height: 2rem;
+}
+
